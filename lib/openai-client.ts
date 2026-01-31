@@ -1,5 +1,5 @@
 import OpenAI from 'openai';
-import { kelvinToCelsius } from './utils';
+import { kelvinToCelsius, mpsToKph } from './utils';
 
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
